@@ -58,4 +58,4 @@ learningResourceType:
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2026-08-17'
-version: '1.0'
+version: '1.0.1'
