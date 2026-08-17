@@ -1,0 +1,15 @@
+project:
+  type: default
+  output-dir: _output
+
+bibliography: references.bib
+
+format:
+  typst:
+    papersize: a4
+    fontsize: 10pt
+    toc: false
+    number-sections: false
+
+execute:
+  enabled: false
