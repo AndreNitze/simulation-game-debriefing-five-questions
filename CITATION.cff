@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite this open educational resource using the metadata below."
 title: "Five Questions for Debriefing Simulation Games"
-version: "1.0"
+version: "1.0.1"
 date-released: 2026-08-17
 authors:
   - family-names: Nitze
@@ -28,5 +28,5 @@ preferred-citation:
       given-names: André
       orcid: https://orcid.org/0000-0003-0752-917X
   year: 2026
-  version: "1.0"
+  version: "1.0.1"
   url: https://github.com/AndreNitze/simulation-game-debriefing-five-questions
