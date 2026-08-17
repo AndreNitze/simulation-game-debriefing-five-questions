@@ -1,0 +1,73 @@
+name: Build and publish OER release
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag
+        required: true
+        default: v1.0
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/release.yml
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      RELEASE_TAG: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || 'v1.0' }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install document fonts and PDF tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-lato texlive-fonts-extra poppler-utils
+          fc-cache -f
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Verify fonts
+        run: |
+          fc-match "Libertinus Serif"
+          fc-match "Lato"
+
+      - name: Render German and English PDFs
+        run: quarto render
+
+      - name: Validate release PDFs
+        shell: bash
+        run: |
+          mapfile -t pdfs < <(find _output -type f -name '*.pdf' -print | sort)
+          printf 'Generated PDFs:\n%s\n' "${pdfs[@]}"
+          test "${#pdfs[@]}" -eq 2
+          for pdf in "${pdfs[@]}"; do
+            pages=$(pdfinfo "$pdf" | awk '/^Pages:/ {print $2}')
+            echo "$pdf: $pages pages"
+            test "$pages" -eq 3
+          done
+
+      - name: Publish GitHub release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            echo "Release $RELEASE_TAG already exists; replacing PDF assets."
+            mapfile -t pdfs < <(find _output -type f -name '*.pdf' -print | sort)
+            gh release upload "$RELEASE_TAG" "${pdfs[@]}" --clobber
+          else
+            mapfile -t pdfs < <(find _output -type f -name '*.pdf' -print | sort)
+            gh release create "$RELEASE_TAG" "${pdfs[@]}" \
+              --target "$GITHUB_SHA" \
+              --title "Five Questions for Debriefing Simulation Games - Version 1.0" \
+              --notes "Version 1.0 of the bilingual open educational resource. Includes publication-ready German and English PDF editions. Source files, citation metadata, OERSI metadata, and Zenodo metadata are included in the repository snapshot."
+          fi
