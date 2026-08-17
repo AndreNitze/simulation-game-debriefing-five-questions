@@ -6,7 +6,7 @@ on:
       tag:
         description: Release tag
         required: true
-        default: v1.0
+        default: v1.0.1
   push:
     branches:
       - main
@@ -20,7 +20,7 @@ jobs:
   release:
     runs-on: ubuntu-latest
     env:
-      RELEASE_TAG: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || 'v1.0' }}
+      RELEASE_TAG: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || 'v1.0.1' }}
 
     steps:
       - name: Check out repository
@@ -60,14 +60,14 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          RELEASE_VERSION="${RELEASE_TAG#v}"
+          mapfile -t pdfs < <(find _output -type f -name '*.pdf' -print | sort)
           if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
             echo "Release $RELEASE_TAG already exists; replacing PDF assets."
-            mapfile -t pdfs < <(find _output -type f -name '*.pdf' -print | sort)
             gh release upload "$RELEASE_TAG" "${pdfs[@]}" --clobber
           else
-            mapfile -t pdfs < <(find _output -type f -name '*.pdf' -print | sort)
             gh release create "$RELEASE_TAG" "${pdfs[@]}" \
               --target "$GITHUB_SHA" \
-              --title "Five Questions for Debriefing Simulation Games - Version 1.0" \
-              --notes "Version 1.0 of the bilingual open educational resource. Includes publication-ready German and English PDF editions. Source files, citation metadata, OERSI metadata, and Zenodo metadata are included in the repository snapshot."
+              --title "Five Questions for Debriefing Simulation Games - Version ${RELEASE_VERSION}" \
+              --notes "Version ${RELEASE_VERSION} of the bilingual open educational resource. Includes publication-ready German and English PDF editions. Source files, citation metadata, OERSI metadata, and Zenodo metadata are included in the repository snapshot."
           fi
