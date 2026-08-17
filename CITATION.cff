@@ -3,6 +3,7 @@ message: "Please cite this open educational resource using the metadata below."
 title: "Five Questions for Debriefing Simulation Games"
 version: "1.0.1"
 date-released: 2026-08-17
+doi: 10.5281/zenodo.21984199
 authors:
   - family-names: Nitze
     given-names: André
@@ -10,7 +11,7 @@ authors:
     affiliation: Technische Hochschule Brandenburg
 license: CC-BY-4.0
 repository-code: https://github.com/AndreNitze/simulation-game-debriefing-five-questions
-url: https://github.com/AndreNitze/simulation-game-debriefing-five-questions
+url: https://doi.org/10.5281/zenodo.21984199
 keywords:
   - debriefing
   - simulation games
@@ -29,4 +30,5 @@ preferred-citation:
       orcid: https://orcid.org/0000-0003-0752-917X
   year: 2026
   version: "1.0.1"
-  url: https://github.com/AndreNitze/simulation-game-debriefing-five-questions
+  doi: 10.5281/zenodo.21984199
+  url: https://doi.org/10.5281/zenodo.21984199
