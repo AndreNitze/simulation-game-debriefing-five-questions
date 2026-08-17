@@ -1,5 +1,7 @@
 # Five Questions for Debriefing Simulation Games
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21984199.svg)](https://doi.org/10.5281/zenodo.21984199)
+
 **Version 1.0.1 · Open Educational Resource · German and English editions**
 
 This repository contains a compact, evidence-informed open educational resource (OER) for debriefing simulation games in higher education and professional training. It adapts the **Five Questions** facilitation model described by Micah Jacobson and Mari Ruddy in the second edition of *Open to Outcome* (2015) to simulation-game debriefing.
