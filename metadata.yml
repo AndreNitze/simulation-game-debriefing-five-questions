@@ -10,6 +10,14 @@ description: >-
   worked examples for a project-management simulation and the Beer Distribution Game.
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://github.com/AndreNitze/simulation-game-debriefing-five-questions
+mainEntityOfPage:
+  - id: https://github.com/AndreNitze/simulation-game-debriefing-five-questions
+    provider:
+      type: Service
+      name: GitHub
+      id: https://github.com/
+conditionsOfAccess:
+  id: http://w3id.org/kim/conditionsOfAccess/no_login
 creator:
   - givenName: André
     familyName: Nitze
