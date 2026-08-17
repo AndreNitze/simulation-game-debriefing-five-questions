@@ -1,0 +1,235 @@
+---
+title: "Leitfaden für Debriefings in Planspielen"
+subtitle: "Fünf Fragen vom Spielerlebnis zum Transfer"
+lang: de
+suppress-bibliography: true
+output-file: five-questions-debriefing-de.pdf
+format:
+  typst:
+    mainfont: "Libertinus Serif"
+    sansfont: "Lato"
+    fontsize: 13pt
+    margin:
+      top: 2.0cm
+      right: 1.8cm
+      bottom: 1.6cm
+      left: 2.1cm
+    include-in-header: ../debriefing-theme.typ
+    smart: false
+---
+
+```{=typst}
+#set text(size: 10pt)
+#document-details()
+```
+
+# Warum Debriefing nach Planspielen?
+
+Planspiele schaffen Erfahrungen: Teilnehmende entscheiden unter Unsicherheit, erleben Konsequenzen, reagieren auf andere Beteiligte und beobachten, wie sich ein System entwickelt. **Die Erfahrung allein garantiert jedoch noch keinen Lerntransfer.** Erst die strukturierte Reflexion macht aus einem Ereignis im Spiel einen fachlichen **Lernanlass**, der mit Situationen außerhalb des Spiels verknüpft werden kann.^[Linda Costigan Lederman: *Debriefing: Toward a Systematic Assessment of Theory and Practice*. Simulation & Gaming 23(2), 1992, S. 145–160. [DOI](https://doi.org/10.1177/1046878192232003); David Crookall: *Serious Games, Debriefing, and Simulation/Gaming as a Discipline*. Simulation & Gaming 41(6), 2010, S. 898–920. [DOI](https://doi.org/10.1177/1046878110390784).]
+
+Der Leitfaden richtet sich an Lehrkräfte, Trainerinnen und Trainer sowie Spielleitungen, die ihre Auswertung klar strukturieren und gezielt auf die Lernziele ihrer Veranstaltung ausrichten möchten. Sie erhalten dafür fünf aufeinander aufbauende Fragen, mit denen Sie Erlebnisse aus der aktuellen Spielrunde gemeinsam einordnen und in konkrete Erkenntnisse und Handlungsoptionen überführen können.
+
+Eine Meta-Analyse von 46 Stichproben mit insgesamt 2.136 Personen zeigte für strukturierte Debriefings einen mittleren Effekt von *d* = 0,67. Die Autoren ordnen dies als ungefähr **20–25 % höhere Effektivität** gegenüber Kontrollbedingungen ein. Der Befund betrifft Debriefings allgemein – nicht die Überlegenheit eines bestimmten Fragenschemas.^[Scott I. Tannenbaum und Christopher P. Cerasoli: *Do Team and Individual Debriefs Enhance Performance? A Meta-Analysis*. Human Factors 55(1), 2013, S. 231–245. [DOI](https://doi.org/10.1177/0018720812448394).]
+
+Auch für simulationsbasiertes Lernen in der Hochschulbildung liegt eine breite empirische Basis vor. Eine Meta-Analyse von 145 Studien berichtet einen großen positiven Gesamteffekt von Simulationen auf komplexe Fähigkeiten und unterstreicht die Bedeutung geeigneter Unterstützungs- und Reflexionsphasen.^[Olga Chernikova et al.: *Simulation-Based Learning in Higher Education: A Meta-Analysis*. Review of Educational Research 90(4), 2020, S. 499–541. [DOI](https://doi.org/10.3102/0034654320933544).]
+
+# Die fünf Fragen: Vom Spielmoment zum Transfer
+
+Das Five Questions Model wurde für die Moderation erfahrungsbezogener Reflexion entwickelt. Jacobson und Ruddy verbinden in *Open to Outcome* Ansätze des erfahrungsbasierten Lernens und der Gruppenmoderation zu einer leicht merkbaren Gesprächsfolge.^[Micah Jacobson und Mari Ruddy: *Open to Outcome: A Practical Guide for Facilitating & Teaching Experiential Reflection*. 2. Auflage, Wood N Barnes Publishing, Bethany, OK, 2015.]
+
+Im Mittelpunkt steht ein konkreter, von der Gruppe geteilter Moment. Die fünf Fragen machen ihn zunächst sichtbar, helfen bei seiner Deutung und verbinden ihn anschließend mit anderen Kontexten und zukünftigem Handeln. Für Planspiele ist diese Logik besonders anschlussfähig, weil Entscheidungen, Folgen und überraschende Wendungen einen gemeinsamen Erfahrungsanker liefern. Die Spielleitung wählt daraus einen relevanten Moment und richtet Lernfokus sowie fachliche Tiefe an den Zielen der Veranstaltung aus.
+
+Die Stärke der fünf Fragen liegt weniger in einzelnen Formulierungen als in ihrer **Abfolge**: Sie führt von einem leicht zugänglichen Beobachtungspunkt schrittweise zu Erklärung und Transfer. Die Spielleitung hält den gewählten Ausgangsmoment über alle Schritte präsent und lädt unterschiedliche Perspektiven ein. Die in den blauen Boxen aufgeführten Nachfragen dienen als optionale Moderationsimpulse, mit denen Sie allgemeine Antworten konkretisieren, weitere Perspektiven öffnen und das Gespräch bei Bedarf vertiefen können. Dafür sollte der zeitliche Rahmen genügend Raum für Beobachtung, Erklärung und Transfer bieten.
+
+## Frage 1 – Beobachten
+
+```{=typst}
+#question-layout(
+  [
+```
+
+Beginnen Sie mit der Frage `#de-quote[Ist Ihnen aufgefallen, dass …?]`{=typst} und knüpfen Sie an einen konkreten Vorgang aus der **aktuellen Spielrunde** an, den die Gruppe wiedererkennt. Je nach Entscheidungen, Ergebnissen und Gruppenverlauf kann jede Runde andere ergiebige Momente hervorbringen – etwa überraschende, kontroverse, frustrierende oder besonders erfolgreiche Situationen.
+
+Eine präzise Beobachtungsfrage schafft einen gemeinsamen Bezugspunkt und senkt die Hürde für den ersten Gesprächsbeitrag. Formulieren Sie den sichtbaren Vorgang oder das Ergebnis möglichst konkret und lassen Sie seine Ursachen zunächst offen.
+
+```{=typst}
+  ],
+  [
+```
+
+`#de-quote[Was haben Sie in diesem Moment beobachtet?]`{=typst}
+
+`#de-quote[Woran haben Sie erkannt, dass sich die Situation verändert?]`{=typst}
+
+```{=typst}
+  ],
+)
+```
+
+## Frage 2 – Erklären
+
+```{=typst}
+#question-layout(
+  [
+```
+
+Fragen Sie anschließend: `#de-quote[Warum ist das Ihrer Einschätzung nach passiert?]`{=typst} Nun rekonstruieren die Teilnehmenden **Entscheidungen, Informationen, Erwartungen und Ursachen**.
+
+Unterschiedliche Rollen können denselben Vorgang verschieden wahrgenommen haben, weil ihnen jeweils andere Informationen zur Verfügung standen. Lassen Sie diese Sichtweisen zunächst aus der jeweiligen Spielsituation heraus erklären und führen Sie sie anschließend zusammen.
+
+```{=typst}
+  ],
+  [
+```
+
+`#de-quote[Welche Entscheidung hat dazu beigetragen?]`{=typst}
+
+`#de-quote[Welche Informationen hatten Sie in diesem Moment?]`{=typst}
+
+`#de-quote[Was hatten Sie erwartet?]`{=typst}
+
+`#de-quote[Welche Alternative wäre möglich gewesen?]`{=typst}
+
+```{=typst}
+  ],
+)
+```
+
+## Frage 3 – Übertragen
+
+```{=typst}
+#question-layout(
+  [
+```
+
+Lösen Sie die Diskussion mit der Frage `#de-quote[Gibt es etwas Vergleichbares außerhalb des Spiels?]`{=typst} bewusst vom Planspiel. Gesucht werden vergleichbare Muster, Spannungen oder Entscheidungsbedingungen in Studium, Beruf, Organisationen oder Alltag. Die reale Situation muss dem Spiel nicht in allen Einzelheiten entsprechen; entscheidend ist eine erkennbare **strukturelle Parallele**.
+
+Sammeln Sie zunächst konkrete Vergleichssituationen. Ihre Bedingungen, Beteiligten und Ursachen werden im nächsten Schritt genauer untersucht.
+
+```{=typst}
+  ],
+  [
+```
+
+`#de-quote[Wo haben Sie ein ähnliches Muster schon erlebt oder beobachtet?]`{=typst}
+
+`#de-quote[Was ist dort mit der Spielsituation vergleichbar?]`{=typst}
+
+```{=typst}
+  ],
+)
+```
+
+## Frage 4 – Konkretisieren
+
+```{=typst}
+#question-layout(
+  [
+```
+
+Vertiefen Sie die Übertragung mit der Frage `#de-quote[Welche Beteiligten, Bedingungen und Auslöser prägen solche Situationen?]`{=typst} Aus der allgemeinen Feststellung `#de-quote[Das gibt es in der Praxis auch]`{=typst} wird so eine belastbare Analyse. Die Gruppe untersucht, wer beteiligt oder betroffen ist, unter welchen Bedingungen das Muster entsteht, welche Interessen aufeinandertreffen und wann die Situation besondere Aufmerksamkeit verlangt.
+
+An dieser Stelle verbindet die Spielleitung die Erfahrungen gezielt mit den **Lernzielen der Veranstaltung**. Je nach Kontext können fachliche Modelle, Begriffe oder Kontroversen aus Projektmanagement, Zusammenarbeit, Lieferkettensteuerung oder anderen Themenfeldern die Analyse vertiefen.
+
+```{=typst}
+  ],
+  [
+```
+
+`#de-quote[Wer ist betroffen?]`{=typst}
+
+`#de-quote[Unter welchen Bedingungen tritt das Muster auf?]`{=typst}
+
+`#de-quote[Welche Interessen treffen aufeinander?]`{=typst}
+
+`#de-quote[Welches Fachkonzept hilft bei der Einordnung?]`{=typst}
+
+```{=typst}
+  ],
+)
+```
+
+## Frage 5 – Handeln
+
+```{=typst}
+#question-layout(
+  [
+```
+
+Schließen Sie den Gesprächsbogen mit der Frage `#de-quote[Wie können Sie diese Erkenntnis künftig nutzen?]`{=typst} Die Reflexion mündet in eine **konkrete, übertragbare Handlungsregel**. Eine hilfreiche Formulierung benennt, wer in einer vergleichbaren Situation was tut, worauf dabei geachtet wird und wann die Handlung eingesetzt werden soll.
+
+Veranschaulichen Sie die nötige Präzision an einem Beispiel: Die abstrakte Aussage `#de-quote[Wir sollten Änderungen besser managen.]`{=typst} gewinnt an Handlungsnähe, wenn sie konkretisiert wird: `#de-quote[Wenn kurzfristig eine zusätzliche Anforderung entsteht, klären wir zuerst Auswirkungen auf Prioritäten, Aufwand, Qualität und Verantwortlichkeiten, bevor wir sie übernehmen.]`{=typst}
+
+```{=typst}
+  ],
+  [
+```
+
+`#de-quote[Was würden Sie beim nächsten vergleichbaren Fall konkret tun?]`{=typst}
+
+`#de-quote[Woran würden Sie erkennen, dass die Handlung wirkt?]`{=typst}
+
+```{=typst}
+  ],
+)
+```
+
+Zum Abschluss bündelt die Spielleitung die wichtigsten Erkenntnisse und hält die abgeleiteten Handlungen sichtbar fest. So bleibt der Weg vom beobachteten Spielmoment bis zur Anwendung für die Gruppe nachvollziehbar.
+
+# Beispiele: Die fünf Fragen in der Praxis
+
+Dieselbe Abfolge von Fragen lässt sich an unterschiedliche Ereignisse und Lernziele in Planspielen anschließen.
+
+```{=typst}
+#example-box[
+```
+
+## Beispiel A · Kurzfristige Zusatzanforderung im Projekt
+
+### Spielsituation
+
+Ein digitales Projektmanagement-Planspiel konfrontiert ein Team während eines laufenden Projekts mit einer zusätzlichen Anforderung. Die Änderung wirkt zunächst überschaubar. Das Team übernimmt sie, ohne Prioritäten, Aufgabenverteilung, Zeitplan oder Erwartungen der Beteiligten ausreichend neu abzustimmen. Später entstehen Zeitdruck, Qualitätsprobleme, Unzufriedenheit oder Konflikte.
+
+### Die fünf Fragen im Einsatz
+
+```{=typst}
+#numbered-item([①], [#strong[Beobachten:] #de-quote[Ist Ihnen aufgefallen, dass nach der zusätzlichen Anforderung mehrere Probleme gleichzeitig entstanden sind?]])
+#numbered-item([②], [#strong[Erklären:] #de-quote[Warum hatte diese zunächst kleine Änderung Ihrer Einschätzung nach so große Auswirkungen?] – #de-quote[Was haben Sie bei Ihrer Entscheidung berücksichtigt – und was nicht?]])
+#numbered-item([③], [#strong[Übertragen:] #de-quote[Kennen Sie Situationen, in denen zusätzliche Anforderungen übernommen werden, ohne die Konsequenzen vollständig zu klären?]])
+#numbered-item([④], [#strong[Konkretisieren:] #de-quote[Wer müsste bei einer solchen Änderung beteiligt werden? Wann wird aus einer kleinen Änderung ein Problem? Welche Interessen können miteinander in Konflikt geraten?]])
+#numbered-item([⑤], [#strong[Handeln:] #de-quote[Wie würden Sie künftig mit einer kurzfristigen zusätzlichen Anforderung umgehen?]])
+```
+
+Eine mögliche Handlungsregel lautet: `#de-quote[Bevor wir eine zusätzliche Anforderung übernehmen, klären wir ihren Nutzen, ihre Auswirkungen auf bestehende Prioritäten und wer die Konsequenzen tragen muss.]`{=typst}
+
+```{=typst}
+]
+
+#example-box[
+```
+
+## Beispiel B · Beer Distribution Game
+
+Das **Beer Distribution Game** ist eine Supply-Chain-Simulation. Teilnehmende steuern unterschiedliche Stufen einer Lieferkette und treffen lokale Bestellentscheidungen unter Informations- und Zeitverzögerungen. Das Spiel eignet sich unter anderem zur Diskussion des Bullwhip-Effekts.^[MIT Sloan School of Management: *MIT Sloan Beer Game Online*. Teaching Resources Library, 2022, abgerufen am 17. August 2026. [Online-Ressource](https://mitsloan.mit.edu/teaching-resources-library/mit-sloan-beer-game-online).]
+
+### Spielsituation
+
+Die Nachfrage der Endkundschaft verändert sich vergleichsweise wenig. Trotzdem beginnen die Bestellmengen entlang der Lieferkette stark zu schwanken. Einzelne Rollen reagieren auf lokale Engpässe, Rückstände und verzögerte Informationen mit immer stärkeren Anpassungen.
+
+### Die fünf Fragen im Einsatz
+
+```{=typst}
+#numbered-item([①], [#strong[Beobachten:] #de-quote[Ist Ihnen aufgefallen, dass die Bestellmengen immer stärker schwankten, obwohl sich die Endkundennachfrage deutlich weniger verändert hat?]])
+#numbered-item([②], [#strong[Erklären:] #de-quote[Warum haben Sie Ihre Bestellmengen verändert? Welche Informationen hatten Sie in diesem Moment?]])
+#numbered-item([③], [#strong[Übertragen:] #de-quote[Wo entstehen in realen Wertschöpfungsketten ähnliche Überreaktionen oder Abstimmungsprobleme?]])
+#numbered-item([④], [#strong[Konkretisieren:] #de-quote[Welche Beteiligten, Informationslücken oder Verzögerungen verstärken solche Schwankungen? Wann werden lokal sinnvolle Entscheidungen zum Problem für das Gesamtsystem?]])
+#numbered-item([⑤], [#strong[Handeln:] #de-quote[Welche Informationen, Regeln oder Abstimmungsmechanismen würden Sie in einer realen Lieferkette verändern, um solche Reaktionen zu begrenzen?]])
+```
+
+```{=typst}
+]
+```
+
+## Ein Ereignis – mehrere fachliche Perspektiven
+
+Ein Spielerlebnis kann verschiedene fachliche Perspektiven eröffnen. Ab Frage 3 verbindet die Spielleitung das beobachtete Ereignis gezielt mit den Lernzielen der Veranstaltung – beispielsweise mit Projektmanagement, Zusammenarbeit, Lieferkettensteuerung oder Systemdynamik. **Das Spiel liefert den Fall; die Lehrveranstaltung bestimmt die fachliche Tiefe und Richtung der Diskussion.**
