@@ -28,6 +28,14 @@ Version 1.0.1 is available as publication-ready PDF editions:
 - [English – Guide to Debriefing Simulation Games](https://github.com/AndreNitze/simulation-game-debriefing-five-questions/releases/download/v1.0.1/five-questions-debriefing-en.pdf)
 - [GitHub Release v1.0.1](https://github.com/AndreNitze/simulation-game-debriefing-five-questions/releases/tag/v1.0.1)
 
+## Citation
+
+Persistent DOI: **10.5281/zenodo.21984199**
+
+> Nitze, André (2026): *Five Questions for Debriefing Simulation Games*. Version 1.0.1. https://doi.org/10.5281/zenodo.21984199
+
+Machine-readable citation metadata is available in [`CITATION.cff`](./CITATION.cff).
+
 ## Files
 
 - `de/five-questions-debriefing.qmd` — German source
