@@ -1,6 +1,6 @@
 # Five Questions for Debriefing Simulation Games
 
-**Version 1.0 · Open Educational Resource · German and English editions**
+**Version 1.0.1 · Open Educational Resource · German and English editions**
 
 This repository contains a compact, evidence-informed open educational resource (OER) for debriefing simulation games in higher education and professional training. It adapts the **Five Questions** facilitation model described by Micah Jacobson and Mari Ruddy in the second edition of *Open to Outcome* (2015) to simulation-game debriefing.
 
@@ -20,11 +20,11 @@ Both language editions are designed as three-page A4 PDFs.
 
 ## Download
 
-Version 1.0 is available as publication-ready PDF editions:
+Version 1.0.1 is available as publication-ready PDF editions:
 
-- [Deutsch – Leitfaden für Debriefings in Planspielen](https://github.com/AndreNitze/simulation-game-debriefing-five-questions/releases/download/v1.0/five-questions-debriefing-de.pdf)
-- [English – Guide to Debriefing Simulation Games](https://github.com/AndreNitze/simulation-game-debriefing-five-questions/releases/download/v1.0/five-questions-debriefing-en.pdf)
-- [GitHub Release v1.0](https://github.com/AndreNitze/simulation-game-debriefing-five-questions/releases/tag/v1.0)
+- [Deutsch – Leitfaden für Debriefings in Planspielen](https://github.com/AndreNitze/simulation-game-debriefing-five-questions/releases/download/v1.0.1/five-questions-debriefing-de.pdf)
+- [English – Guide to Debriefing Simulation Games](https://github.com/AndreNitze/simulation-game-debriefing-five-questions/releases/download/v1.0.1/five-questions-debriefing-en.pdf)
+- [GitHub Release v1.0.1](https://github.com/AndreNitze/simulation-game-debriefing-five-questions/releases/tag/v1.0.1)
 
 ## Files
 
