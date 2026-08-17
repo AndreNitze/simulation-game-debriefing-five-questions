@@ -1,0 +1,53 @@
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: Five Questions for Debriefing Simulation Games
+description: >-
+  Bilingual open educational resource for higher education and professional training on
+  structured debriefing of simulation games. The guide adapts the Five Questions
+  facilitation model described by Micah Jacobson and Mari Ruddy in Open to Outcome
+  (2nd ed., 2015) and provides facilitator guidance, optional follow-up prompts, and
+  worked examples for a project-management simulation and the Beer Distribution Game.
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://github.com/AndreNitze/simulation-game-debriefing-five-questions
+creator:
+  - givenName: André
+    familyName: Nitze
+    id: https://orcid.org/0000-0003-0752-917X
+    type: Person
+    affiliation:
+      name: Technische Hochschule Brandenburg
+      id: https://ror.org/04qj3gf68
+      type: Organization
+sourceOrganization:
+  - name: Technische Hochschule Brandenburg
+    id: https://ror.org/04qj3gf68
+    type: Organization
+keywords:
+  - Debriefing
+  - Planspiel
+  - simulation game
+  - serious game
+  - experiential learning
+  - erfahrungsbasiertes Lernen
+  - learning transfer
+  - Lerntransfer
+  - reflection
+  - Reflexion
+  - higher education
+  - Hochschullehre
+  - project management
+  - Projektmanagement
+  - Open Educational Resources
+  - OER
+inLanguage:
+  - de
+  - en
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n277
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2026-08-17'
+version: '1.0'
