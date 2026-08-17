@@ -10,7 +10,7 @@
 
 #let document-details() = align(center)[
   #block(below: 3pt)[
-    #text(size: 8.5pt, fill: black)[Version 1.0 · Autor: André Nitze · Datum: 17. August 2026 · Lizenz: #link("https://creativecommons.org/licenses/by/4.0/")[#text(fill: black)[CC BY 4.0]]]
+    #text(size: 8.5pt, fill: black)[Version 1.0.1 · Autor: André Nitze · Datum: 17. August 2026 · Lizenz: #link("https://creativecommons.org/licenses/by/4.0/")[#text(fill: black)[CC BY 4.0]]]
   ]
   #text(size: 8pt, fill: black)[Aktuelle Versionen und weitere Informationen: #link("https://github.com/AndreNitze/simulation-game-debriefing-five-questions")[#text(fill: black)[https://github.com/AndreNitze/simulation-game-debriefing-five-questions]]]
 ]
