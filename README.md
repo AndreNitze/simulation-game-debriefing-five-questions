@@ -18,6 +18,14 @@ The guide has three main sections:
 
 Both language editions are designed as three-page A4 PDFs.
 
+## Download
+
+Version 1.0 is available as publication-ready PDF editions:
+
+- [Deutsch – Leitfaden für Debriefings in Planspielen](https://github.com/AndreNitze/simulation-game-debriefing-five-questions/releases/download/v1.0/five-questions-debriefing-de.pdf)
+- [English – Guide to Debriefing Simulation Games](https://github.com/AndreNitze/simulation-game-debriefing-five-questions/releases/download/v1.0/five-questions-debriefing-en.pdf)
+- [GitHub Release v1.0](https://github.com/AndreNitze/simulation-game-debriefing-five-questions/releases/tag/v1.0)
+
 ## Files
 
 - `de/five-questions-debriefing.qmd` — German source
@@ -30,7 +38,7 @@ Both language editions are designed as three-page A4 PDFs.
 - `CITATION.cff` — machine-readable citation metadata for GitHub
 - `.zenodo.json` — metadata for Zenodo release archiving
 
-Generated PDFs and DOCX files are intentionally excluded from Git. Publication artifacts should be attached to a GitHub release and deposited with the corresponding OER version in Zenodo.
+Generated PDFs and DOCX files are intentionally excluded from Git. Publication PDFs are attached to the corresponding GitHub release and can be reproduced from the source files.
 
 ## Build
 
