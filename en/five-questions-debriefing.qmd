@@ -1,0 +1,235 @@
+---
+title: "Guide to Debriefing Simulation Games"
+subtitle: "Five Questions from Game Experience to Learning Transfer"
+lang: en
+suppress-bibliography: true
+output-file: five-questions-debriefing-en.pdf
+format:
+  typst:
+    mainfont: "Libertinus Serif"
+    sansfont: "Lato"
+    fontsize: 13pt
+    margin:
+      top: 2.0cm
+      right: 1.8cm
+      bottom: 1.6cm
+      left: 2.1cm
+    include-in-header: ../debriefing-theme-en.typ
+    smart: false
+---
+
+```{=typst}
+#set text(size: 10pt)
+#document-details()
+```
+
+# Why Debrief Simulation Games?
+
+Simulation games create experiences: participants make decisions under uncertainty, experience consequences, respond to others, and observe how a system evolves. **Experience alone, however, does not guarantee learning transfer.** Structured reflection turns an event in the game into a disciplinary **learning opportunity** that can be connected with situations beyond the game.^[Linda Costigan Lederman: *Debriefing: Toward a Systematic Assessment of Theory and Practice*. Simulation & Gaming 23(2), 1992, pp. 145–160. [DOI](https://doi.org/10.1177/1046878192232003); David Crookall: *Serious Games, Debriefing, and Simulation/Gaming as a Discipline*. Simulation & Gaming 41(6), 2010, pp. 898–920. [DOI](https://doi.org/10.1177/1046878110390784).]
+
+This guide is intended for educators, trainers, and game facilitators who want to structure their debriefings clearly and align them with the learning objectives of a course or training session. It offers five sequential questions that help you interpret experiences from the current round together with participants and turn them into concrete insights and options for action.
+
+A meta-analysis of 46 samples involving 2,136 people found a mean effect size of *d* = 0.67 for structured debriefs. The authors interpret this as approximately **20–25% greater effectiveness** than in control conditions. The finding concerns debriefs in general; it does not demonstrate the superiority of a particular set of questions.^[Scott I. Tannenbaum and Christopher P. Cerasoli: *Do Team and Individual Debriefs Enhance Performance? A Meta-Analysis*. Human Factors 55(1), 2013, pp. 231–245. [DOI](https://doi.org/10.1177/0018720812448394).]
+
+Simulation-based learning in higher education is also supported by broad empirical evidence. A meta-analysis of 145 studies reports a large positive overall effect of simulations on complex skills and underscores the importance of appropriate support and reflection phases.^[Olga Chernikova et al.: *Simulation-Based Learning in Higher Education: A Meta-Analysis*. Review of Educational Research 90(4), 2020, pp. 499–541. [DOI](https://doi.org/10.3102/0034654320933544).]
+
+# The Five Questions: From a Moment in the Game to Learning Transfer
+
+The Five Questions Model was developed to facilitate experience-based reflection. In *Open to Outcome*, Jacobson and Ruddy combine approaches from experiential learning and group facilitation into an easy-to-remember sequence of prompts.^[Micah Jacobson and Mari Ruddy: *Open to Outcome: A Practical Guide for Facilitating & Teaching Experiential Reflection*. 2nd ed., Wood N Barnes Publishing, Bethany, OK, 2015.]
+
+At its center is a concrete moment shared by the group. The five questions first make that moment visible, then support its interpretation, and finally connect it with other contexts and future action. This logic is especially well suited to simulation games because decisions, consequences, and unexpected developments provide a shared experiential anchor. The facilitator selects a relevant moment and aligns the learning focus and disciplinary depth with the objectives of the course or training session.
+
+The strength of the five questions lies less in their individual wording than in their **sequence**: they move from an accessible observation to explanation and learning transfer. The facilitator keeps the selected moment present throughout, invites different perspectives, and uses the follow-up questions shown in the blue boxes as optional prompts. They can help you make general answers more specific, open additional perspectives, and deepen the conversation when useful. Allow enough time for observation, explanation, and transfer.
+
+## Question 1 – Observe
+
+```{=typst}
+#question-layout(
+  [
+```
+
+Begin with the question `#en-quote[Did you notice that …?]`{=typst} and connect it to a concrete event from the **current round** that the group recognizes. Depending on the decisions, outcomes, and group dynamics, every round can offer different productive moments—for example, a surprising, controversial, frustrating, or especially successful situation.
+
+A precise observation question establishes a shared point of reference and lowers the threshold for the first contribution. Describe the visible event or outcome as concretely as possible while initially leaving its causes open.
+
+```{=typst}
+  ],
+  [
+```
+
+`#en-quote[What did you observe at that moment?]`{=typst}
+
+`#en-quote[What showed you that the situation had changed?]`{=typst}
+
+```{=typst}
+  ],
+)
+```
+
+## Question 2 – Explain
+
+```{=typst}
+#question-layout(
+  [
+```
+
+Then ask: `#en-quote[Why do you think this happened?]`{=typst} Participants now reconstruct **decisions, information, expectations, and causes**.
+
+Different roles may have perceived the same event differently because they had access to different information. Invite participants to explain these perspectives from within their respective game situations before bringing them together.
+
+```{=typst}
+  ],
+  [
+```
+
+`#en-quote[Which decision contributed to this?]`{=typst}
+
+`#en-quote[What information did you have at that moment?]`{=typst}
+
+`#en-quote[What did you expect to happen?]`{=typst}
+
+`#en-quote[What alternative was available?]`{=typst}
+
+```{=typst}
+  ],
+)
+```
+
+## Question 3 – Transfer
+
+```{=typst}
+#question-layout(
+  [
+```
+
+Deliberately move the discussion beyond the game by asking `#en-quote[Does anything similar happen outside the game?]`{=typst} Look for comparable patterns, tensions, or decision conditions in education, work, organizations, or everyday life. The real situation does not have to match the game in every detail; what matters is a recognizable **structural parallel**.
+
+First collect concrete comparable situations. Their conditions, participants, and causes are examined more closely in the next step.
+
+```{=typst}
+  ],
+  [
+```
+
+`#en-quote[Where have you experienced or observed a similar pattern?]`{=typst}
+
+`#en-quote[What does that situation have in common with the game?]`{=typst}
+
+```{=typst}
+  ],
+)
+```
+
+## Question 4 – Specify
+
+```{=typst}
+#question-layout(
+  [
+```
+
+Deepen the transfer by asking `#en-quote[Which people, conditions, and triggers shape situations like this?]`{=typst} The general observation `#en-quote[This also happens in practice]`{=typst} now becomes a sound analysis. The group examines who is involved or affected, the conditions under which the pattern emerges, the interests that come into conflict, and when the situation requires particular attention.
+
+At this point, the facilitator deliberately connects the experience with the **learning objectives of the course or training session**. Depending on the context, disciplinary models, concepts, or controversies from project management, collaboration, supply-chain management, or other fields can deepen the analysis.
+
+```{=typst}
+  ],
+  [
+```
+
+`#en-quote[Who is affected?]`{=typst}
+
+`#en-quote[Under what conditions does the pattern occur?]`{=typst}
+
+`#en-quote[Which interests come into conflict?]`{=typst}
+
+`#en-quote[Which disciplinary concept helps explain it?]`{=typst}
+
+```{=typst}
+  ],
+)
+```
+
+## Question 5 – Act
+
+```{=typst}
+#question-layout(
+  [
+```
+
+Close the conversation by asking `#en-quote[How can you use this insight in the future?]`{=typst} The reflection culminates in a **concrete, transferable rule for action**. A useful formulation specifies who will do what in a comparable situation, what they will pay attention to, and when the action should be taken.
+
+Illustrate the necessary precision with an example: The abstract statement `#en-quote[We should manage changes better.]`{=typst} becomes more actionable when it is made concrete: `#en-quote[When a short-notice additional requirement arises, we first clarify its impact on priorities, effort, quality, and responsibilities before accepting it.]`{=typst}
+
+```{=typst}
+  ],
+  [
+```
+
+`#en-quote[What would you do in the next comparable situation?]`{=typst}
+
+`#en-quote[How would you know that the action is working?]`{=typst}
+
+```{=typst}
+  ],
+)
+```
+
+To conclude, the facilitator summarizes the main insights and keeps the actions derived from them visible. This makes the path from the observed moment in the game to future application clear to the group.
+
+# Examples: The Five Questions in Practice
+
+The same sequence of questions can be applied to different events and learning objectives in simulation games.
+
+```{=typst}
+#example-box[
+```
+
+## Example A · A Short-Notice Additional Requirement in a Project
+
+### Game Situation
+
+A digital project-management simulation confronts a team with an additional requirement while a project is already underway. At first, the change seems manageable. The team accepts it without sufficiently revisiting priorities, task allocation, schedule, or stakeholder expectations. Later, time pressure, quality problems, dissatisfaction, or conflict emerge.
+
+### The Five Questions in Use
+
+```{=typst}
+#numbered-item([①], [#strong[Observe:] #en-quote[Did you notice that several problems emerged at the same time after the additional requirement was accepted?]])
+#numbered-item([②], [#strong[Explain:] #en-quote[Why did this initially small change have such a large impact, in your view?] – #en-quote[What did you consider in your decision—and what did you overlook?]])
+#numbered-item([③], [#strong[Transfer:] #en-quote[Do you know situations in which additional requirements are accepted without fully clarifying the consequences?]])
+#numbered-item([④], [#strong[Specify:] #en-quote[Who would need to be involved in a change like this? When does a small change become a problem? Which interests can come into conflict?]])
+#numbered-item([⑤], [#strong[Act:] #en-quote[How would you handle a short-notice additional requirement in the future?]])
+```
+
+One possible rule for action is: `#en-quote[Before accepting an additional requirement, we clarify its value, its impact on existing priorities, and who will bear the consequences.]`{=typst}
+
+```{=typst}
+]
+
+#example-box[
+```
+
+## Example B · Beer Distribution Game
+
+The **Beer Distribution Game** is a supply-chain simulation. Participants manage different stages of a supply chain and make local ordering decisions under information and time delays. Among other uses, the game supports discussion of the bullwhip effect.^[MIT Sloan School of Management: *MIT Sloan Beer Game Online*. Teaching Resources Library, 2022, accessed 17 August 2026. [Online resource](https://mitsloan.mit.edu/teaching-resources-library/mit-sloan-beer-game-online).]
+
+### Game Situation
+
+End-customer demand changes relatively little. Nevertheless, order quantities across the supply chain begin to fluctuate strongly. Individual roles respond to local shortages, backlogs, and delayed information with increasingly large adjustments.
+
+### The Five Questions in Use
+
+```{=typst}
+#numbered-item([①], [#strong[Observe:] #en-quote[Did you notice that order quantities fluctuated more and more even though end-customer demand changed much less?]])
+#numbered-item([②], [#strong[Explain:] #en-quote[Why did you change your order quantities? What information did you have at that moment?]])
+#numbered-item([③], [#strong[Transfer:] #en-quote[Where do similar overreactions or coordination problems occur in real supply chains?]])
+#numbered-item([④], [#strong[Specify:] #en-quote[Which people, information gaps, or delays amplify these fluctuations? When do locally reasonable decisions become a problem for the overall system?]])
+#numbered-item([⑤], [#strong[Act:] #en-quote[Which information, rules, or coordination mechanisms would you change in a real supply chain to limit such reactions?]])
+```
+
+```{=typst}
+]
+```
+
+## One Event – Multiple Disciplinary Perspectives
+
+A game experience can open up different disciplinary perspectives. From Question 3 onward, the facilitator deliberately connects the observed event with the learning objectives of the course or training session—for example, project management, collaboration, supply-chain management, or system dynamics. **The game provides the case; the learning setting determines the disciplinary depth and direction of the discussion.**
